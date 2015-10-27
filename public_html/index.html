@@ -7,10 +7,6 @@
 
 body	{	
 	background-color:black;
-	background-image:"SuuInTheSea.jpg";
-	background-size:width="500px" height="600px";
-	background-repeat: no-repeat;
-	background-position: right bottom;
 	}
 
 h1	{
@@ -63,6 +59,10 @@ a:active {
     text-decoration: underline;
 }
 
+video.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
 
 </style>
 </head>
@@ -74,12 +74,12 @@ a:active {
 	</a> intends to fill this place up with plenty of goodies!</p>
 
 	
- 	<center> 
-		<video class='center' width="549" height="309" autoplay loop>
+ 
+		<video class='displayed' width="549" height="309" autoplay loop>
 		<source src="http://playground.dryfish.net/ROCKstarlink.mp4" type="video/mp4">
 Your browser does not support the video tag :(.
 		</video>
-	</center>
+
 	<p>The above work is courtesy of <a href=https://twitter.com/tuyoki>Temmie Chang</a>.</p>
 
 <ul>Todo list
